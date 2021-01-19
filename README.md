@@ -1,3 +1,39 @@
+# Inlämningsuppgift 2
+
+Du ska bygga en webbsida som från ett API hämtar FN:s globala mål och visar dessa på sidan. Det ska sedan gå att klicka på varje mål och få information om dess sub-mål (s.k. targets)
+
+## Hur det ska fungera
+* När en användare går in på sidan ska alla FN:s hållbarhetsmål hämtas från API:et och visas på sidan.
+* Jag ska kunna klicka på ett mål och få mer information om dess sub-mål (s.k. targets).
+* Visa upp i ett så snyggt gränssnitt som du önskar.
+
+## Endpoints
+* https://unstats.un.org/SDGAPI/swagger/#!/Goal/V1SdgGoalListGet
+* Namn: GET /v1/sdg/Goal/List
+
+Om man vill
+* https://unstats.un.org/SDGAPI/swagger/#!/Goal/V1SdgGoalByGoalCodeTargetListGet
+* GET /v1/sdg/Goal/{goalCode}/Target/List
+
+## Krav för godkänt
+
+* Sidan ska fungera enligt ovan specifikation.
+* Du ska **enbart** använda dig av funktionella komponenter med React hooks.
+* Du ska använda dig av **fetch** för att hämta data från API.
+* Du hämtar data från detta API https://unstats.un.org/SDGAPI/swagger/#/.
+
+## Classrom-länk
+Länk: https://classroom.github.com/a/zRqht2Jm
+
+## Inlämning
+
+Inlämning är på Github i det repo som skapades via Github Classroom. Ta länken till ditt repo och
+lägg till som en kommentar på Ping Pong och lämna in uppgiften där senast **25 jan 2021 23:59**.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
